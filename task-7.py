@@ -77,7 +77,7 @@ num_multi()
 #######
 # Q 7 #
 #######
-def num1():
+def limit_num():
     limit = int(input('Enter the Limit_Number: '))
     maxi = int(input('Enter the maximum outputs to display (Max display_on_screen): '))
     target = int(input('Enter the Target_Number : '))
@@ -90,10 +90,4 @@ def num1():
         print(res, end=' ')
 
 
-num1()
-
-
-
-
-
-
+limit_num()
